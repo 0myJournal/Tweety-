@@ -1,0 +1,75 @@
+.imgGrey:hover{
+    filter: opacity(60%);
+}
+
+.hidden{
+    width: 0.1px;
+height: 0.1px;
+opacity: 0;
+overflow: hidden;
+position: absolute;
+z-index: -1;
+}
+
+.marginBottom{
+    
+}
+
+.sticky{
+    position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        text-align: center;
+        font-size: 20px;
+        max-width:400px;
+        margin: 0 auto;
+        padding-top:10px;
+        padding-bottom: 10px;
+        color: white;
+}
+
+.navmenu{
+    display: none;
+}
+
+.friendsmenu{
+    display:none;
+    
+}
+
+.minifriendslist{
+    display: none;
+    float: right;
+    right: 0%;
+    position: absolute;
+}
+
+.minisidebar{
+    display: none;
+    position: absolute;
+}
+
+
+@media(max-width: 1100px){
+    .sidebarlinks{
+        display: none;
+    }
+    .friendslist{
+        display: none;
+    }
+    .navmenu{
+       display: flex;
+    }
+    
+    .friendsmenu{
+        display: flex;
+    }
+
+}
+
+
+
+  
+
+      
+  
